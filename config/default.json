@@ -1,0 +1,16 @@
+{
+  "dirs": {
+    "input": "input",
+    "workspace": "workspace",
+    "backup": "backup",
+    "output": "output"
+  },
+  "videoExtensions": [".mp4", ".mov", ".mkv", ".webm", ".avi", ".m4v"],
+  "backup": true,
+  "analysis": {
+    "silenceNoiseDb": -30,
+    "minSilenceSec": 0.5,
+    "minSoundSec": 0.15,
+    "sceneThreshold": 0.3
+  }
+}

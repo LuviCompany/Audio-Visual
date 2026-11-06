@@ -1,0 +1,27 @@
+node_modules/
+input/*
+workspace/*
+backup/*
+output/*
+!input/.gitkeep
+!workspace/.gitkeep
+!backup/.gitkeep
+!output/.gitkeep
+.env
+.env.*
+!.env.example
+
+# Segurança: nunca versionar vídeos de clientes, áudio, chaves ou credenciais (em nenhuma pasta)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.pem
+*.key
+*.p12
+credentials*.json
